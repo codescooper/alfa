@@ -32,6 +32,15 @@
         "projectId": "9a567d08-a6aa-45ea-978f-1703cd1e06aa"
       }
     },
-    "owner": "codescooper"
+    "owner": "codescooper",
+    "plugins": [
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "Allow Voice to Text Tutorial to access the microphone",
+          "speechRecognitionPermission": "Allow Voice to Text Tutorial to securely recognize user speech"
+        }
+      ]
+    ]
   }
 }
